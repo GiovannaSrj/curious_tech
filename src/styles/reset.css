@@ -1,0 +1,122 @@
+/* Reset CSS */
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+strong,
+em,
+small,
+u,
+s,
+b,
+i,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+pre,
+samp,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+button,
+input,
+select,
+textarea,
+table,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Avoiding some common issues with line-height */
+body {
+  line-height: 1;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+[hidden] {
+  display: none;
+}
+
+/* Grouping content browsers compatibility */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Forms browsers compatibility */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+/* Anchor styling to avoid browser inconsistencies */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Resetting table border spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

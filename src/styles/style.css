@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap');
+
+body{
+    background-color: #CAB8AA;
+    font-family:'Kanit', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 216px;
+    background-image: linear-gradient(to bottom, #47001A, #29010f );
+    color: #fff;
+
+}
+
+.text {
+    padding: 20px;
+    width: 600px;
+
+}
+
+div.text {
+    text-align: center;
+}
+
+.text .title{
+    font-family: 'BEBAS NEUE', sans-serif;
+    font-size: 45px;
+    padding: 10px; 
+    text-align: center;
+    align-items: center;
+    
+}
+
+.nav ul{
+    margin-top: 80px;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.text .title__inf {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav{
+    margin-left: 10px;
+    border: 2px;
+    border-color: #fff;
+    font-family: 'BEBAS NEUE', sans-serif;
+
+}
+
+main{
+    margin-left: 400px;
+    align-items: center;
+    background-color: #fff;
+    width: 800px;
+    padding: 40px;
+    display: block;
+}
+
+.main__container .main__texts .img__ada{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main__container .main__texts .video{
+    background-color: #47001A;
+    width: 800px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 15px 
+}
+
+h2{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 15px 
+}
+
+h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 
+}
+p{
+    text-align:justify ;
+    font-size: 14px;
+}
+
+.main__container .container__mais{
+
+    margin: 20px 5px;
+    background-color: #CAB8AA;
+    border-radius: 10px;
+}
+
+.main__container .container__mais .mais__title{
+    background-color: #81002F;
+    border-radius: 10px 10px 0 0;
+    padding: 8px;
+    color: #fff;
+}
+
+.main__container .container__mais .mais__text{
+    padding: 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: #47001A;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
