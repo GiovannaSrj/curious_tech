@@ -92,7 +92,6 @@ main h2 {
     font-size: 1.4rem;
     font-weight: 500;
     margin: 20px 0px;
-    background-image: linear-gradient(to right, #81002f30, transparent);
     padding: 2px;
 }
 
@@ -113,8 +112,7 @@ main p {
 
 main a {
     font-weight: 500;
-    color: var(--he-color);
-    background-color: #81002f65;
+    color: var(--as-color);
     transition-duration: 0.4s;
 }
 
@@ -156,7 +154,7 @@ main #maq:hover #coment {
 
 div.video{
     background-color: #47001a;
-    margin: 0px -20px 15px -20px;
+    margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 56.7%;
     position: relative;
