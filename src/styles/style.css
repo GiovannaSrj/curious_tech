@@ -7,7 +7,7 @@
     --he-color: #47001a;
     --as-color: #81002f;
     --bc-color: #cab8aa;
-    --coment-color: #4B1E2F;
+    --coment-color: #48061e;
 
     --default-font: "Kanit", "Verdana", "Helvetica", sans-serif;
     --title-font: "BEBAS NEUE", sans-serif;
@@ -169,7 +169,7 @@ div.video > iframe{
 }
 
 aside{
-    background-color: #cab8aa;
+    background-color:#cab8aa6c;
     border-radius: 10px;
     padding: 10px;
     margin-top: 15px;
