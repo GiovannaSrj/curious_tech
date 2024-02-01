@@ -19,7 +19,7 @@ body {
     font-family: var(--default-font);
 }
 
-a.externo::after{
+a.externo::after {
     content: '\1F517';
 }
 
@@ -116,7 +116,7 @@ main a {
     transition-duration: 0.4s;
 }
 
-main a:hover{
+main a:hover {
     text-decoration: underline;
 
     color: var(--as-color);
@@ -128,22 +128,24 @@ main img {
 }
 
 #coment {
-    position:relative; top:-80px;
-    left:170px;
-    padding:6px;
-    line-height:20px;
-    background:var(--coment-color);
-    color:#fff;
+    position: relative;
+    top: -80px;
+    left: 170px;
+    padding: 6px;
+    line-height: 20px;
+    background: var(--coment-color);
+    color: #fff;
     display: block;
-    width:170px;
+    width: 170px;
     opacity: 0;
-   
+
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
 }
+
 main #ada:hover #coment {
     opacity: 1;
 }
@@ -152,7 +154,7 @@ main #maq:hover #coment {
     opacity: 1;
 }
 
-div.video{
+div.video {
     background-color: #47001a;
     margin: 0px -20px 30px -20px;
     padding: 20px;
@@ -160,7 +162,7 @@ div.video{
     position: relative;
 }
 
-div.video > iframe{
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -168,8 +170,8 @@ div.video > iframe{
     height: 90%;
 }
 
-aside{
-    background-color:#cab8aa6c;
+aside {
+    background-color: #cab8aa6c;
     border-radius: 10px;
     padding: 10px;
     margin-top: 15px;
@@ -181,17 +183,19 @@ aside h2 {
     font-weight: 500;
     background-color: #81002f;
     color: #fff;
-    margin: -10px -10px 10px -10px ;
+    margin: -10px -10px 10px -10px;
     border-radius: 10px 10px 0px 0px;
     padding: 8px;
 }
 
-aside li{
+aside li {
     font-weight: 500;
 }
-aside a{
+
+aside a {
     background-color: #fff;
 }
+
 aside p {
     text-indent: 10px;
 }
@@ -212,6 +216,6 @@ footer a {
     font-weight: 550;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
 }
